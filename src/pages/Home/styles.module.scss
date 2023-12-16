@@ -1,0 +1,35 @@
+.Home {
+  margin: auto;
+  margin-top: 20px;
+  max-width: 1000px;
+}
+
+.SelectItemSpan {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.SelectItemBlock {
+  width: 20%;
+}
+
+.SelectQtySpan {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.SelectQtyBlock {
+  width: 20%;
+}
+
+.Controls {
+  display: flex;
+  flex-direction: row;
+}
+
+hr {
+  margin: 20px;
+  background-color: #ff7200;
+  border: none;
+  height: 2px;
+}

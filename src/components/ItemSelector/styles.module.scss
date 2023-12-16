@@ -1,0 +1,34 @@
+.ItemSelectorPopup {
+  background-color: #171717;
+  border-radius: 20px;
+  border: 5px solid #ff7200;
+  z-index: 2;
+  position: absolute;
+  width: 30%;
+  left: 35%;
+  top: 30%;
+  color: #000000;
+  opacity: 1;
+}
+
+.ItemSelectorPopupBackground {
+  background-color: #0000007f;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.ItemSelector {
+
+}
+
+.ItemSelectorGrid {
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(75px, 1fr));
+  justify-items: center;
+  grid-gap: 10px;
+  margin: 15px;
+}

@@ -1,0 +1,29 @@
+.CraftingRow {
+
+  background-color: #212427;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #666666;
+
+}
+
+.Block {
+  display: flex;
+  align-items: center;
+  vertical-align: center;
+  flex-direction: row;
+  padding: 5px;
+  width: 20%;
+}
+
+
+.Block > span {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.ModuleBlock {
+  @extend .Block;
+  width: 40%;
+}
